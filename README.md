@@ -30,3 +30,63 @@ Use common HTML tags like h1, p, a, img, and ul or ol.
 Structure a webpage with semantic tags such as header, footer, nav, section, and article.
 Ensure the content is well-organized for readability and SEO.
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A basic webpage demonstrating HTML structure with text, images, and links.">
+    <title>Sample Webpage</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styling -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Sample Webpage</h1>
+        <p>Learn more about web design and HTML structure.</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Introduction</h2>
+        <p>This is a simple webpage to showcase basic HTML elements. It includes headings, paragraphs, images, and links that demonstrate how to structure a webpage for optimal readability and SEO.</p>
+        <img src="https://via.placeholder.com/400" alt="Placeholder image" />
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our website provides useful resources for learning HTML, CSS, and web development. We believe in making coding accessible and fun for everyone!</p>
+        <img src="https://via.placeholder.com/300" alt="About Us Image" />
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <article>
+            <h3>Web Design</h3>
+            <p>We offer professional web design services to help you create a stunning online presence.</p>
+            <a href="https://example.com/web-design">Learn more about Web Design</a>
+        </article>
+        <article>
+            <h3>SEO Optimization</h3>
+            <p>Improve your website's ranking and visibility on search engines with our SEO optimization services.</p>
+            <a href="https://example.com/seo">Learn more about SEO Optimization</a>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sample Webpage. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="https://www.example.com/privacy-policy">Privacy Policy</a></li>
+                <li><a href="https://www.example.com/terms-of-service">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
